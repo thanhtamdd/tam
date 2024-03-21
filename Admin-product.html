@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./admin.css">
+    <script src="./vendor/fontawesome/js/all.min.js"></script>
+    <title>Admin</title>
+</head>
+<body>
+    <header>
+        <div class="tools">
+            <div class="letter"><i class="fas fa-envelope-square" style="width:25px; height:25px;"></i></div>
+            <div class="bell"><i class="far fa-bell" style="width:25px; height:25px;" ></i></div>
+            <div class="logout" ><p>Log Out</p></div>
+        </div>
+    </header>
+    <main>
+        <div class="bar">
+            <img class="white-coca" src="./picture/logo-white-large.svg" alt="image">
+            <a href="./Admin.html">
+            <div class="admin">
+                <i class="far fa-address-card" style="width:50px; height:30px; color:#899DC1; "></i>
+                <p style="color:#899DC1">Administrator</p>
+            </div>
+            </a>
+            <a href="./Admin-user.html">
+            <div class="user">
+                <i class="fas fa-user-alt" style="width:50px; height:30px; color:#899DC1;"></i>
+                <p style="color:#899DC1">Customer</p>
+            </div>
+            </a>
+            <a href="./Admin-product.html">
+            <div class="product">
+                <i class="fas fa-receipt" style="width:50px; height:30px; "></i>
+                <p >Product</p>
+            </div>
+            </a>
+            <a href="./Admin-order.html">
+            <div class="order">
+                <i class="fas fa-cart-plus" style="width:50px; height:30px; color:#899DC1;"></i>
+                <p style="color:#899DC1">Order</p>
+            </div>
+            </a>
+        </div>
+        </div>
+        <div class="content">
+            <div class="title">
+                <p>Product</p>
+            </div>
+            <div class="input">
+                <div class="id-pro">
+                    <p>Id:</p>
+                    <input name="username" type="text">
+                </div>
+                <div class="img-pro">
+                    <p>Product's image:</p>
+                    <input name="email" type="text">
+                </div>
+                <div class="name-pro">
+                    <p>Product Name:</p>
+                    <input name="email" type="text">
+                </div>
+                <div class="price">
+                    <p>Price:</p>
+                    <input name="email" type="text">
+                </div>
+                <div class="quantity">
+                    <p>Quantity:</p>
+                    <input name="email" type="text">
+                </div>
+                <div class="date-add">
+                    <p>Date Add:</p>
+                    <input name="email" type="text">
+                </div>
+                <div class="buttons">
+                    <div class="add">
+                        <input type="submit" name="add" value="ADD+">
+                    </div>
+                </div>
+                <div class="search">
+                    <input class="searchId" type="text" name="search" placeholder="Search">
+                    <div class="entryId">
+                        <p>Entries:</p>
+                        <select>
+                            <option value="1">Entry</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
